@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "SqiteVC.h"
+#import "FuzzySearchVC.h"
 @interface ViewController ()
 
 @end
@@ -16,9 +17,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor=[UIColor yellowColor];
     // Do any additional setup after loading the view, typically from a nib.
 }
-
+- (IBAction)pusSqlite:(id)sender {
+    SqiteVC *sqlVC=[[SqiteVC alloc]init];
+    
+    [self.navigationController pushViewController:sqlVC animated:YES];
+    
+}
+- (IBAction)pushSearchVC:(id)sender {
+    FuzzySearchVC *SearchVC=[[FuzzySearchVC alloc]init];
+    
+    [self.navigationController pushViewController:SearchVC animated:YES];
+    
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

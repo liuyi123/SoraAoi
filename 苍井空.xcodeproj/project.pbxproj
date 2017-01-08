@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		B83F21CC89EF21E56E763895 /* Pods____.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F8E0B9CE879BDA6A9A7BF2 /* Pods____.framework */; };
+		D60DEB971E1FDC4D002D8869 /* SqiteVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEB921E1FDC4D002D8869 /* SqiteVC.m */; };
+		D60DEB981E1FDC4D002D8869 /* SqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEB941E1FDC4D002D8869 /* SqliteTool.m */; };
+		D60DEB991E1FDC4D002D8869 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = D60DEB961E1FDC4D002D8869 /* Student.m */; };
+		D60DEB9B1E1FDC81002D8869 /* SqiteVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D60DEB9A1E1FDC81002D8869 /* SqiteVC.xib */; };
 		D63D32681E1D40E10019B9A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D32671E1D40E10019B9A7 /* main.m */; };
 		D63D326B1E1D40E10019B9A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D326A1E1D40E10019B9A7 /* AppDelegate.m */; };
 		D63D326E1E1D40E10019B9A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D326D1E1D40E10019B9A7 /* ViewController.m */; };
@@ -16,6 +20,24 @@
 		D63D32761E1D40E10019B9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D63D32741E1D40E10019B9A7 /* LaunchScreen.storyboard */; };
 		D63D32811E1D40E10019B9A7 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D32801E1D40E10019B9A7 /* ___Tests.m */; };
 		D63D328C1E1D40E10019B9A7 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D328B1E1D40E10019B9A7 /* ___UITests.m */; };
+		D64316021E21219C009FB002 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64316011E21219C009FB002 /* libsqlite3.0.tbd */; };
+		D6E4B2801E2246F8009E07F9 /* FuzzySearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B27E1E2246F8009E07F9 /* FuzzySearchVC.m */; };
+		D6E4B2861E224717009E07F9 /* ContactTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2831E224717009E07F9 /* ContactTool.m */; };
+		D6E4B2871E224717009E07F9 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2851E224717009E07F9 /* Contact.m */; };
+		D6E4B2951E227446009E07F9 /* FMDBVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2931E227446009E07F9 /* FMDBVC.m */; };
+		D6E4B2961E227446009E07F9 /* FMDBVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E4B2941E227446009E07F9 /* FMDBVC.xib */; };
+		D6E4B29B1E228B37009E07F9 /* FMDMQueueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2991E228B37009E07F9 /* FMDMQueueVC.m */; };
+		D6E4B29C1E228B37009E07F9 /* FMDMQueueVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6E4B29A1E228B37009E07F9 /* FMDMQueueVC.xib */; };
+		D6E4B2A01E228CE0009E07F9 /* runtimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B29F1E228CE0009E07F9 /* runtimeVC.m */; };
+		D6E4B2A51E228D1C009E07F9 /* XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2A21E228D1C009E07F9 /* XMGImage.m */; };
+		D6E4B2A61E228D1C009E07F9 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2A41E228D1C009E07F9 /* UIImage+Image.m */; };
+		D6E4B2AB1E228EB7009E07F9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2AA1E228EB7009E07F9 /* Person.m */; };
+		D6E4B2AF1E228FE5009E07F9 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2AE1E228FE5009E07F9 /* NSObject+Property.m */; };
+		D6E4B2B91E2292FE009E07F9 /* StatusItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2B21E2292FE009E07F9 /* StatusItem.m */; };
+		D6E4B2BA1E2292FE009E07F9 /* NSDictionary+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2B41E2292FE009E07F9 /* NSDictionary+Property.m */; };
+		D6E4B2BB1E2292FE009E07F9 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2B61E2292FE009E07F9 /* NSObject+Model.m */; };
+		D6E4B2BC1E2292FE009E07F9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2B81E2292FE009E07F9 /* User.m */; };
+		D6E4B2BE1E229342009E07F9 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E4B2BD1E229342009E07F9 /* status.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +61,13 @@
 		10F769D9060B8AC290AB5482 /* Pods-苍井空.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-苍井空.release.xcconfig"; path = "Pods/Target Support Files/Pods-苍井空/Pods-苍井空.release.xcconfig"; sourceTree = "<group>"; };
 		7FDE26E9E4ED29AA4BE4836E /* Pods-苍井空.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-苍井空.debug.xcconfig"; path = "Pods/Target Support Files/Pods-苍井空/Pods-苍井空.debug.xcconfig"; sourceTree = "<group>"; };
 		80F8E0B9CE879BDA6A9A7BF2 /* Pods____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60DEB911E1FDC4D002D8869 /* SqiteVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqiteVC.h; sourceTree = "<group>"; };
+		D60DEB921E1FDC4D002D8869 /* SqiteVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqiteVC.m; sourceTree = "<group>"; };
+		D60DEB931E1FDC4D002D8869 /* SqliteTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteTool.h; sourceTree = "<group>"; };
+		D60DEB941E1FDC4D002D8869 /* SqliteTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteTool.m; sourceTree = "<group>"; };
+		D60DEB951E1FDC4D002D8869 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		D60DEB961E1FDC4D002D8869 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		D60DEB9A1E1FDC81002D8869 /* SqiteVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SqiteVC.xib; sourceTree = "<group>"; };
 		D63D32631E1D40E10019B9A7 /* 苍井空.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "苍井空.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63D32671E1D40E10019B9A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D63D32691E1D40E10019B9A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +84,38 @@
 		D63D32871E1D40E10019B9A7 /* 苍井空UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "苍井空UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D63D328B1E1D40E10019B9A7 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		D63D328D1E1D40E10019B9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64316011E21219C009FB002 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D6E4B27D1E2246F8009E07F9 /* FuzzySearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuzzySearchVC.h; sourceTree = "<group>"; };
+		D6E4B27E1E2246F8009E07F9 /* FuzzySearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuzzySearchVC.m; sourceTree = "<group>"; };
+		D6E4B2821E224717009E07F9 /* ContactTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTool.h; sourceTree = "<group>"; };
+		D6E4B2831E224717009E07F9 /* ContactTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactTool.m; sourceTree = "<group>"; };
+		D6E4B2841E224717009E07F9 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		D6E4B2851E224717009E07F9 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		D6E4B2921E227446009E07F9 /* FMDBVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDBVC.h; sourceTree = "<group>"; };
+		D6E4B2931E227446009E07F9 /* FMDBVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDBVC.m; sourceTree = "<group>"; };
+		D6E4B2941E227446009E07F9 /* FMDBVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMDBVC.xib; sourceTree = "<group>"; };
+		D6E4B2981E228B37009E07F9 /* FMDMQueueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDMQueueVC.h; sourceTree = "<group>"; };
+		D6E4B2991E228B37009E07F9 /* FMDMQueueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDMQueueVC.m; sourceTree = "<group>"; };
+		D6E4B29A1E228B37009E07F9 /* FMDMQueueVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FMDMQueueVC.xib; sourceTree = "<group>"; };
+		D6E4B29E1E228CE0009E07F9 /* runtimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runtimeVC.h; sourceTree = "<group>"; };
+		D6E4B29F1E228CE0009E07F9 /* runtimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runtimeVC.m; sourceTree = "<group>"; };
+		D6E4B2A11E228D1C009E07F9 /* XMGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGImage.h; sourceTree = "<group>"; };
+		D6E4B2A21E228D1C009E07F9 /* XMGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGImage.m; sourceTree = "<group>"; };
+		D6E4B2A31E228D1C009E07F9 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		D6E4B2A41E228D1C009E07F9 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		D6E4B2A91E228EB7009E07F9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		D6E4B2AA1E228EB7009E07F9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		D6E4B2AD1E228FE5009E07F9 /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
+		D6E4B2AE1E228FE5009E07F9 /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		D6E4B2B11E2292FE009E07F9 /* StatusItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatusItem.h; sourceTree = "<group>"; };
+		D6E4B2B21E2292FE009E07F9 /* StatusItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatusItem.m; sourceTree = "<group>"; };
+		D6E4B2B31E2292FE009E07F9 /* NSDictionary+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Property.h"; sourceTree = "<group>"; };
+		D6E4B2B41E2292FE009E07F9 /* NSDictionary+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Property.m"; sourceTree = "<group>"; };
+		D6E4B2B51E2292FE009E07F9 /* NSObject+Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Model.h"; sourceTree = "<group>"; };
+		D6E4B2B61E2292FE009E07F9 /* NSObject+Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Model.m"; sourceTree = "<group>"; };
+		D6E4B2B71E2292FE009E07F9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		D6E4B2B81E2292FE009E07F9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		D6E4B2BD1E229342009E07F9 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64316021E21219C009FB002 /* libsqlite3.0.tbd in Frameworks */,
 				B83F21CC89EF21E56E763895 /* Pods____.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -95,9 +157,35 @@
 		B3B904AB1419B32A92040768 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D64316011E21219C009FB002 /* libsqlite3.0.tbd */,
 				80F8E0B9CE879BDA6A9A7BF2 /* Pods____.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D60DEB8F1E1FDBE0002D8869 /* 数据库 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2971E228AF7009E07F9 /* FMDB多线程 */,
+				D6E4B28D1E226E7B009E07F9 /* FMDB */,
+				D6E4B27C1E224669009E07F9 /* 模糊搜索 */,
+				D60DEB901E1FDBF8002D8869 /* 数据库的简单使用 */,
+			);
+			name = "数据库";
+			sourceTree = "<group>";
+		};
+		D60DEB901E1FDBF8002D8869 /* 数据库的简单使用 */ = {
+			isa = PBXGroup;
+			children = (
+				D60DEB911E1FDC4D002D8869 /* SqiteVC.h */,
+				D60DEB921E1FDC4D002D8869 /* SqiteVC.m */,
+				D60DEB9A1E1FDC81002D8869 /* SqiteVC.xib */,
+				D60DEB931E1FDC4D002D8869 /* SqliteTool.h */,
+				D60DEB941E1FDC4D002D8869 /* SqliteTool.m */,
+				D60DEB951E1FDC4D002D8869 /* Student.h */,
+				D60DEB961E1FDC4D002D8869 /* Student.m */,
+			);
+			name = "数据库的简单使用";
 			sourceTree = "<group>";
 		};
 		D63D325A1E1D40E10019B9A7 = {
@@ -125,6 +213,8 @@
 		D63D32651E1D40E10019B9A7 /* 苍井空 */ = {
 			isa = PBXGroup;
 			children = (
+				D6E4B29D1E228C77009E07F9 /* runtime */,
+				D60DEB8F1E1FDBE0002D8869 /* 数据库 */,
 				D63D32691E1D40E10019B9A7 /* AppDelegate.h */,
 				D63D326A1E1D40E10019B9A7 /* AppDelegate.m */,
 				D63D326C1E1D40E10019B9A7 /* ViewController.h */,
@@ -162,6 +252,97 @@
 				D63D328D1E1D40E10019B9A7 /* Info.plist */,
 			);
 			path = "苍井空UITests";
+			sourceTree = "<group>";
+		};
+		D6E4B27C1E224669009E07F9 /* 模糊搜索 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B27D1E2246F8009E07F9 /* FuzzySearchVC.h */,
+				D6E4B27E1E2246F8009E07F9 /* FuzzySearchVC.m */,
+				D6E4B2821E224717009E07F9 /* ContactTool.h */,
+				D6E4B2831E224717009E07F9 /* ContactTool.m */,
+				D6E4B2841E224717009E07F9 /* Contact.h */,
+				D6E4B2851E224717009E07F9 /* Contact.m */,
+			);
+			name = "模糊搜索";
+			sourceTree = "<group>";
+		};
+		D6E4B28D1E226E7B009E07F9 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2921E227446009E07F9 /* FMDBVC.h */,
+				D6E4B2931E227446009E07F9 /* FMDBVC.m */,
+				D6E4B2941E227446009E07F9 /* FMDBVC.xib */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		D6E4B2971E228AF7009E07F9 /* FMDB多线程 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2981E228B37009E07F9 /* FMDMQueueVC.h */,
+				D6E4B2991E228B37009E07F9 /* FMDMQueueVC.m */,
+				D6E4B29A1E228B37009E07F9 /* FMDMQueueVC.xib */,
+			);
+			name = "FMDB多线程";
+			sourceTree = "<group>";
+		};
+		D6E4B29D1E228C77009E07F9 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2B01E229266009E07F9 /* 字典转模型KVC实现 */,
+				D6E4B2AC1E228F0E009E07F9 /* 动态添加属性 */,
+				D6E4B2A81E228E9E009E07F9 /* 动态添加方法 */,
+				D6E4B2A71E228D26009E07F9 /* 交换方法 */,
+				D6E4B29E1E228CE0009E07F9 /* runtimeVC.h */,
+				D6E4B29F1E228CE0009E07F9 /* runtimeVC.m */,
+			);
+			name = runtime;
+			sourceTree = "<group>";
+		};
+		D6E4B2A71E228D26009E07F9 /* 交换方法 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2A11E228D1C009E07F9 /* XMGImage.h */,
+				D6E4B2A21E228D1C009E07F9 /* XMGImage.m */,
+				D6E4B2A31E228D1C009E07F9 /* UIImage+Image.h */,
+				D6E4B2A41E228D1C009E07F9 /* UIImage+Image.m */,
+			);
+			name = "交换方法";
+			sourceTree = "<group>";
+		};
+		D6E4B2A81E228E9E009E07F9 /* 动态添加方法 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2A91E228EB7009E07F9 /* Person.h */,
+				D6E4B2AA1E228EB7009E07F9 /* Person.m */,
+			);
+			name = "动态添加方法";
+			sourceTree = "<group>";
+		};
+		D6E4B2AC1E228F0E009E07F9 /* 动态添加属性 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2AD1E228FE5009E07F9 /* NSObject+Property.h */,
+				D6E4B2AE1E228FE5009E07F9 /* NSObject+Property.m */,
+			);
+			name = "动态添加属性";
+			sourceTree = "<group>";
+		};
+		D6E4B2B01E229266009E07F9 /* 字典转模型KVC实现 */ = {
+			isa = PBXGroup;
+			children = (
+				D6E4B2BD1E229342009E07F9 /* status.plist */,
+				D6E4B2B11E2292FE009E07F9 /* StatusItem.h */,
+				D6E4B2B21E2292FE009E07F9 /* StatusItem.m */,
+				D6E4B2B31E2292FE009E07F9 /* NSDictionary+Property.h */,
+				D6E4B2B41E2292FE009E07F9 /* NSDictionary+Property.m */,
+				D6E4B2B51E2292FE009E07F9 /* NSObject+Model.h */,
+				D6E4B2B61E2292FE009E07F9 /* NSObject+Model.m */,
+				D6E4B2B71E2292FE009E07F9 /* User.h */,
+				D6E4B2B81E2292FE009E07F9 /* User.m */,
+			);
+			name = "字典转模型KVC实现";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,7 +415,6 @@
 				TargetAttributes = {
 					D63D32621E1D40E10019B9A7 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = Z7E635ANVA;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -277,7 +457,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D60DEB9B1E1FDC81002D8869 /* SqiteVC.xib in Resources */,
+				D6E4B2961E227446009E07F9 /* FMDBVC.xib in Resources */,
+				D6E4B29C1E228B37009E07F9 /* FMDMQueueVC.xib in Resources */,
 				D63D32761E1D40E10019B9A7 /* LaunchScreen.storyboard in Resources */,
+				D6E4B2BE1E229342009E07F9 /* status.plist in Resources */,
 				D63D32731E1D40E10019B9A7 /* Assets.xcassets in Resources */,
 				D63D32711E1D40E10019B9A7 /* Main.storyboard in Resources */,
 			);
@@ -352,9 +536,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E4B2BC1E2292FE009E07F9 /* User.m in Sources */,
+				D60DEB981E1FDC4D002D8869 /* SqliteTool.m in Sources */,
+				D6E4B2BB1E2292FE009E07F9 /* NSObject+Model.m in Sources */,
+				D6E4B2BA1E2292FE009E07F9 /* NSDictionary+Property.m in Sources */,
 				D63D326E1E1D40E10019B9A7 /* ViewController.m in Sources */,
+				D6E4B2861E224717009E07F9 /* ContactTool.m in Sources */,
+				D6E4B2B91E2292FE009E07F9 /* StatusItem.m in Sources */,
+				D6E4B2951E227446009E07F9 /* FMDBVC.m in Sources */,
+				D6E4B2801E2246F8009E07F9 /* FuzzySearchVC.m in Sources */,
+				D6E4B2A51E228D1C009E07F9 /* XMGImage.m in Sources */,
+				D6E4B2AF1E228FE5009E07F9 /* NSObject+Property.m in Sources */,
 				D63D326B1E1D40E10019B9A7 /* AppDelegate.m in Sources */,
 				D63D32681E1D40E10019B9A7 /* main.m in Sources */,
+				D6E4B29B1E228B37009E07F9 /* FMDMQueueVC.m in Sources */,
+				D60DEB971E1FDC4D002D8869 /* SqiteVC.m in Sources */,
+				D6E4B2871E224717009E07F9 /* Contact.m in Sources */,
+				D6E4B2A61E228D1C009E07F9 /* UIImage+Image.m in Sources */,
+				D6E4B2AB1E228EB7009E07F9 /* Person.m in Sources */,
+				D60DEB991E1FDC4D002D8869 /* Student.m in Sources */,
+				D6E4B2A01E228CE0009E07F9 /* runtimeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -504,7 +705,7 @@
 			baseConfigurationReference = 7FDE26E9E4ED29AA4BE4836E /* Pods-苍井空.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z7E635ANVA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "苍井空/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.---";
@@ -518,7 +719,7 @@
 			baseConfigurationReference = 10F769D9060B8AC290AB5482 /* Pods-苍井空.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Z7E635ANVA;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "苍井空/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.---";
