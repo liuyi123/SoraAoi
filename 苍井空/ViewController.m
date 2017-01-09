@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "SqiteVC.h"
 #import "FuzzySearchVC.h"
+#import "CarsVC.h"
 @interface ViewController ()
 
 @end
@@ -32,7 +33,12 @@
     [self.navigationController pushViewController:SearchVC animated:YES];
     
 }
-
+- (IBAction)pushCarsVC:(id)sender {
+    CarsVC *carsVC=[[CarsVC alloc]init];
+    
+    [self.navigationController pushViewController:carsVC animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -21,6 +21,10 @@
 		D63D32811E1D40E10019B9A7 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D32801E1D40E10019B9A7 /* ___Tests.m */; };
 		D63D328C1E1D40E10019B9A7 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D328B1E1D40E10019B9A7 /* ___UITests.m */; };
 		D64316021E21219C009FB002 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64316011E21219C009FB002 /* libsqlite3.0.tbd */; };
+		D657BE071E2350AD00CA5565 /* XMGCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE041E2350AD00CA5565 /* XMGCar.m */; };
+		D657BE081E2350AD00CA5565 /* XMGCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE061E2350AD00CA5565 /* XMGCarGroup.m */; };
+		D657BE0C1E2351CE00CA5565 /* CarsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE0B1E2351CE00CA5565 /* CarsVC.m */; };
+		D657BE101E23530D00CA5565 /* cars.plist in Resources */ = {isa = PBXBuildFile; fileRef = D657BE0F1E23530D00CA5565 /* cars.plist */; };
 		D6E4B2801E2246F8009E07F9 /* FuzzySearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B27E1E2246F8009E07F9 /* FuzzySearchVC.m */; };
 		D6E4B2861E224717009E07F9 /* ContactTool.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2831E224717009E07F9 /* ContactTool.m */; };
 		D6E4B2871E224717009E07F9 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2851E224717009E07F9 /* Contact.m */; };
@@ -85,6 +89,13 @@
 		D63D328B1E1D40E10019B9A7 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		D63D328D1E1D40E10019B9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D64316011E21219C009FB002 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D657BE031E2350AD00CA5565 /* XMGCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCar.h; sourceTree = "<group>"; };
+		D657BE041E2350AD00CA5565 /* XMGCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCar.m; sourceTree = "<group>"; };
+		D657BE051E2350AD00CA5565 /* XMGCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCarGroup.h; sourceTree = "<group>"; };
+		D657BE061E2350AD00CA5565 /* XMGCarGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCarGroup.m; sourceTree = "<group>"; };
+		D657BE0A1E2351CE00CA5565 /* CarsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarsVC.h; sourceTree = "<group>"; };
+		D657BE0B1E2351CE00CA5565 /* CarsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarsVC.m; sourceTree = "<group>"; };
+		D657BE0F1E23530D00CA5565 /* cars.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = cars.plist; sourceTree = "<group>"; };
 		D6E4B27D1E2246F8009E07F9 /* FuzzySearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FuzzySearchVC.h; sourceTree = "<group>"; };
 		D6E4B27E1E2246F8009E07F9 /* FuzzySearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FuzzySearchVC.m; sourceTree = "<group>"; };
 		D6E4B2821E224717009E07F9 /* ContactTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactTool.h; sourceTree = "<group>"; };
@@ -213,6 +224,7 @@
 		D63D32651E1D40E10019B9A7 /* 苍井空 */ = {
 			isa = PBXGroup;
 			children = (
+				D657BE021E23506C00CA5565 /* MJExtension的使用 */,
 				D6E4B29D1E228C77009E07F9 /* runtime */,
 				D60DEB8F1E1FDBE0002D8869 /* 数据库 */,
 				D63D32691E1D40E10019B9A7 /* AppDelegate.h */,
@@ -252,6 +264,28 @@
 				D63D328D1E1D40E10019B9A7 /* Info.plist */,
 			);
 			path = "苍井空UITests";
+			sourceTree = "<group>";
+		};
+		D657BE021E23506C00CA5565 /* MJExtension的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				D657BE091E23510100CA5565 /* Model */,
+				D657BE0A1E2351CE00CA5565 /* CarsVC.h */,
+				D657BE0B1E2351CE00CA5565 /* CarsVC.m */,
+				D657BE0F1E23530D00CA5565 /* cars.plist */,
+			);
+			name = "MJExtension的使用";
+			sourceTree = "<group>";
+		};
+		D657BE091E23510100CA5565 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D657BE031E2350AD00CA5565 /* XMGCar.h */,
+				D657BE041E2350AD00CA5565 /* XMGCar.m */,
+				D657BE051E2350AD00CA5565 /* XMGCarGroup.h */,
+				D657BE061E2350AD00CA5565 /* XMGCarGroup.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		D6E4B27C1E224669009E07F9 /* 模糊搜索 */ = {
@@ -462,6 +496,7 @@
 				D6E4B29C1E228B37009E07F9 /* FMDMQueueVC.xib in Resources */,
 				D63D32761E1D40E10019B9A7 /* LaunchScreen.storyboard in Resources */,
 				D6E4B2BE1E229342009E07F9 /* status.plist in Resources */,
+				D657BE101E23530D00CA5565 /* cars.plist in Resources */,
 				D63D32731E1D40E10019B9A7 /* Assets.xcassets in Resources */,
 				D63D32711E1D40E10019B9A7 /* Main.storyboard in Resources */,
 			);
@@ -536,6 +571,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D657BE071E2350AD00CA5565 /* XMGCar.m in Sources */,
 				D6E4B2BC1E2292FE009E07F9 /* User.m in Sources */,
 				D60DEB981E1FDC4D002D8869 /* SqliteTool.m in Sources */,
 				D6E4B2BB1E2292FE009E07F9 /* NSObject+Model.m in Sources */,
@@ -545,6 +581,7 @@
 				D6E4B2B91E2292FE009E07F9 /* StatusItem.m in Sources */,
 				D6E4B2951E227446009E07F9 /* FMDBVC.m in Sources */,
 				D6E4B2801E2246F8009E07F9 /* FuzzySearchVC.m in Sources */,
+				D657BE0C1E2351CE00CA5565 /* CarsVC.m in Sources */,
 				D6E4B2A51E228D1C009E07F9 /* XMGImage.m in Sources */,
 				D6E4B2AF1E228FE5009E07F9 /* NSObject+Property.m in Sources */,
 				D63D326B1E1D40E10019B9A7 /* AppDelegate.m in Sources */,
@@ -552,6 +589,7 @@
 				D6E4B29B1E228B37009E07F9 /* FMDMQueueVC.m in Sources */,
 				D60DEB971E1FDC4D002D8869 /* SqiteVC.m in Sources */,
 				D6E4B2871E224717009E07F9 /* Contact.m in Sources */,
+				D657BE081E2350AD00CA5565 /* XMGCarGroup.m in Sources */,
 				D6E4B2A61E228D1C009E07F9 /* UIImage+Image.m in Sources */,
 				D6E4B2AB1E228EB7009E07F9 /* Person.m in Sources */,
 				D60DEB991E1FDC4D002D8869 /* Student.m in Sources */,
