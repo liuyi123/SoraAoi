@@ -15,5 +15,6 @@ pod 'MMDrawerController'
 pod 'FMDB'
 pod 'MJExtension'
 pod 'MJRefresh'
+pod 'Masonry'
 
 end

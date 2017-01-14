@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,38 +22,81 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXM-of-I1a">
-                                <rect key="frame" x="16" y="102" width="54" height="39"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="数据库"/>
-                                <connections>
-                                    <action selector="pusSqlite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFY-Bm-Iml"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lcR-rK-n0r">
-                                <rect key="frame" x="16" y="149" width="62" height="30"/>
+                                <rect key="frame" x="35" y="280" width="62" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="模糊搜索"/>
                                 <connections>
                                     <action selector="pushSearchVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bd2-5q-WLR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aXM-of-I1a">
+                                <rect key="frame" x="30" y="128" width="315" height="50"/>
+                                <color key="backgroundColor" red="0.52223920370119714" green="1" blue="0.14979986616473984" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Roy-ox-m2Q"/>
+                                </constraints>
+                                <state key="normal" title="数据库">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="pusSqlite:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uFY-Bm-Iml"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Qp-q2-Siy">
-                                <rect key="frame" x="16" y="187" width="62" height="32"/>
+                                <rect key="frame" x="35" y="354" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Cars"/>
                                 <connections>
                                     <action selector="pushCarsVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AGs-z3-gr4"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="loj-gN-aUC">
+                                <rect key="frame" x="188" y="208" width="157" height="50"/>
+                                <color key="backgroundColor" red="0.31369548829129457" green="1" blue="0.51489139623246216" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="微博"/>
+                                <connections>
+                                    <action selector="pushFriendsCircleTVC:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5jf-iM-dAK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DY4-8I-vKb">
+                                <rect key="frame" x="259" y="404" width="100" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="BT9-6z-lxQ"/>
+                                    <constraint firstAttribute="height" constant="40" id="b3s-2f-wz7"/>
+                                </constraints>
+                                <state key="normal" title="链式编程"/>
+                                <connections>
+                                    <action selector="pushChainVC" destination="BYZ-38-t0r" eventType="touchUpInside" id="cWI-Kk-H8M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kIM-Fu-4go">
+                                <rect key="frame" x="259" y="469" width="100" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="函数式编程"/>
+                                <connections>
+                                    <action selector="pushfunctionIdeasVC" destination="BYZ-38-t0r" eventType="touchUpInside" id="yOy-XR-Jqu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.15051081708521841" blue="0.10805727087672301" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="aXM-of-I1a" secondAttribute="trailing" constant="30" id="25i-we-TFP"/>
+                            <constraint firstItem="loj-gN-aUC" firstAttribute="height" secondItem="aXM-of-I1a" secondAttribute="height" id="3qT-wS-zTW"/>
+                            <constraint firstItem="loj-gN-aUC" firstAttribute="width" secondItem="aXM-of-I1a" secondAttribute="width" multiplier="0.5" id="Cd8-NX-5p9"/>
+                            <constraint firstItem="aXM-of-I1a" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="30" id="NEQ-ka-WgL"/>
+                            <constraint firstItem="aXM-of-I1a" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="OfO-Cp-cWI"/>
+                            <constraint firstAttribute="trailing" secondItem="DY4-8I-vKb" secondAttribute="trailing" constant="16" id="Vut-wW-NIq"/>
+                            <constraint firstItem="loj-gN-aUC" firstAttribute="trailing" secondItem="aXM-of-I1a" secondAttribute="trailing" id="bAN-14-Oa1"/>
+                            <constraint firstItem="DY4-8I-vKb" firstAttribute="top" secondItem="loj-gN-aUC" secondAttribute="bottom" constant="146" id="cCc-JT-jcm"/>
+                            <constraint firstItem="loj-gN-aUC" firstAttribute="top" secondItem="aXM-of-I1a" secondAttribute="bottom" constant="30" id="fDN-18-btX"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Xjo-ge-nyF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="744.79999999999995" y="45.42728635682159"/>
+            <point key="canvasLocation" x="690" y="-134"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="od4-b4-IIj">
@@ -87,7 +131,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JDd-8V-yEw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1338" y="47"/>
+            <point key="canvasLocation" x="1505" y="-75"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="rVs-LC-YzR">
@@ -105,7 +149,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AH7-SP-OON" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="101.59999999999999" y="122.78860569715144"/>
+            <point key="canvasLocation" x="50" y="-163"/>
         </scene>
     </scenes>
 </document>
