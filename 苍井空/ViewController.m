@@ -14,6 +14,7 @@
 #import "XMGPageView.h"
 #import "ChainVC.h"
 #import "functionIdeasVC.h"
+#import "ReactiveObjC.h"
 @interface ViewController ()
 
 @end

@@ -35,6 +35,12 @@ PODS:
     - MMDrawerController/Core
   - MMDrawerController/Subclass (0.6.0):
     - MMDrawerController/Core
+  - ReactiveCocoa (5.0.0-alpha.3):
+    - ReactiveSwift (~> 1.0.0-alpha.3)
+  - ReactiveObjC (2.1.2)
+  - ReactiveSwift (1.0.0):
+    - Result (~> 3.1)
+  - Result (3.1.0)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -49,6 +55,8 @@ DEPENDENCIES:
   - MJExtension
   - MJRefresh
   - MMDrawerController
+  - ReactiveCocoa (= 5.0.0-alpha.3)
+  - ReactiveObjC (~> 2.1.2)
   - SDWebImage
 
 SPEC CHECKSUMS:
@@ -61,8 +69,12 @@ SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   MMDrawerController: e3a54a5570388463ad3b36975251575b50c4e1a0
+  ReactiveCocoa: d8a03d3deae0dd76410a30589946328d76ab9d2b
+  ReactiveObjC: 7b6782ae39f9ac0f57205c3b0c0b69b9dd7048c0
+  ReactiveSwift: f391724ee318a2cfd3e37dfb041cd49ecf4e7869
+  Result: 4e3ed5995ed94d0cd6a09be9a431fce3f3624bbf
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 576db261ceb15637f591478032b52b57c45fbdc4
+PODFILE CHECKSUM: a488b88a7e3fa1cbe7bb3fdd121a407855080212
 
 COCOAPODS: 1.1.1
