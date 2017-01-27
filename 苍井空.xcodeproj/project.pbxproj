@@ -28,6 +28,15 @@
 		D63D32811E1D40E10019B9A7 /* ___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D32801E1D40E10019B9A7 /* ___Tests.m */; };
 		D63D328C1E1D40E10019B9A7 /* ___UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D63D328B1E1D40E10019B9A7 /* ___UITests.m */; };
 		D64316021E21219C009FB002 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D64316011E21219C009FB002 /* libsqlite3.0.tbd */; };
+		D656D9C11E368C39002F0479 /* AFNDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D656D9C01E368C39002F0479 /* AFNDemo.m */; };
+		D656D9C81E368DC8002F0479 /* MVVMDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D656D9C71E368DC8002F0479 /* MVVMDemo.m */; };
+		D656D9CF1E36CBDE002F0479 /* SAKeyValueStore.m in Sources */ = {isa = PBXBuildFile; fileRef = D656D9CE1E36CBDE002F0479 /* SAKeyValueStore.m */; };
+		D656D9D21E36D984002F0479 /* RACSignalDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D656D9D11E36D984002F0479 /* RACSignalDemo.m */; };
+		D656D9D51E36DC02002F0479 /* RedView.m in Sources */ = {isa = PBXBuildFile; fileRef = D656D9D41E36DC02002F0479 /* RedView.m */; };
+		D656D9D71E36DE84002F0479 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = D656D9D61E36DE84002F0479 /* flags.plist */; };
+		D656D9DA1E36DEE3002F0479 /* Flag.m in Sources */ = {isa = PBXBuildFile; fileRef = D656D9D91E36DEE3002F0479 /* Flag.m */; };
+		D656D9DF1E36E103002F0479 /* ReactdDailyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = D656D9DD1E36E103002F0479 /* ReactdDailyDemo.m */; };
+		D656D9E01E36E103002F0479 /* ReactdDailyDemo.xib in Resources */ = {isa = PBXBuildFile; fileRef = D656D9DE1E36E103002F0479 /* ReactdDailyDemo.xib */; };
 		D657BE071E2350AD00CA5565 /* XMGCar.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE041E2350AD00CA5565 /* XMGCar.m */; };
 		D657BE081E2350AD00CA5565 /* XMGCarGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE061E2350AD00CA5565 /* XMGCarGroup.m */; };
 		D657BE0C1E2351CE00CA5565 /* CarsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE0B1E2351CE00CA5565 /* CarsVC.m */; };
@@ -64,6 +73,8 @@
 		D6E4B2BB1E2292FE009E07F9 /* NSObject+Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2B61E2292FE009E07F9 /* NSObject+Model.m */; };
 		D6E4B2BC1E2292FE009E07F9 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E4B2B81E2292FE009E07F9 /* User.m */; };
 		D6E4B2BE1E229342009E07F9 /* status.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E4B2BD1E229342009E07F9 /* status.plist */; };
+		D6E7090C1E3564ED00056FCE /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7090B1E3564ED00056FCE /* RequestViewModel.m */; };
+		D6E7090F1E35652900056FCE /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E7090E1E35652900056FCE /* Book.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +130,23 @@
 		D63D328B1E1D40E10019B9A7 /* ___UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___UITests.m"; sourceTree = "<group>"; };
 		D63D328D1E1D40E10019B9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D64316011E21219C009FB002 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		D656D9BF1E368C39002F0479 /* AFNDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNDemo.h; sourceTree = "<group>"; };
+		D656D9C01E368C39002F0479 /* AFNDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNDemo.m; sourceTree = "<group>"; };
+		D656D9C61E368DC8002F0479 /* MVVMDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MVVMDemo.h; sourceTree = "<group>"; };
+		D656D9C71E368DC8002F0479 /* MVVMDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MVVMDemo.m; sourceTree = "<group>"; };
+		D656D9CC1E36C0E8002F0479 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D656D9CD1E36CBDE002F0479 /* SAKeyValueStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAKeyValueStore.h; sourceTree = "<group>"; };
+		D656D9CE1E36CBDE002F0479 /* SAKeyValueStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAKeyValueStore.m; sourceTree = "<group>"; };
+		D656D9D01E36D984002F0479 /* RACSignalDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACSignalDemo.h; sourceTree = "<group>"; };
+		D656D9D11E36D984002F0479 /* RACSignalDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACSignalDemo.m; sourceTree = "<group>"; };
+		D656D9D31E36DC02002F0479 /* RedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedView.h; sourceTree = "<group>"; };
+		D656D9D41E36DC02002F0479 /* RedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedView.m; sourceTree = "<group>"; };
+		D656D9D61E36DE84002F0479 /* flags.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
+		D656D9D81E36DEE3002F0479 /* Flag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flag.h; sourceTree = "<group>"; };
+		D656D9D91E36DEE3002F0479 /* Flag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flag.m; sourceTree = "<group>"; };
+		D656D9DC1E36E103002F0479 /* ReactdDailyDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactdDailyDemo.h; sourceTree = "<group>"; };
+		D656D9DD1E36E103002F0479 /* ReactdDailyDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactdDailyDemo.m; sourceTree = "<group>"; };
+		D656D9DE1E36E103002F0479 /* ReactdDailyDemo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactdDailyDemo.xib; sourceTree = "<group>"; };
 		D657BE031E2350AD00CA5565 /* XMGCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCar.h; sourceTree = "<group>"; };
 		D657BE041E2350AD00CA5565 /* XMGCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGCar.m; sourceTree = "<group>"; };
 		D657BE051E2350AD00CA5565 /* XMGCarGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGCarGroup.h; sourceTree = "<group>"; };
@@ -185,6 +213,10 @@
 		D6E4B2B71E2292FE009E07F9 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		D6E4B2B81E2292FE009E07F9 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		D6E4B2BD1E229342009E07F9 /* status.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = status.plist; sourceTree = "<group>"; };
+		D6E7090A1E3564ED00056FCE /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		D6E7090B1E3564ED00056FCE /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		D6E7090D1E35652900056FCE /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		D6E7090E1E35652900056FCE /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,6 +267,8 @@
 		D60DEB8F1E1FDBE0002D8869 /* 数据库 */ = {
 			isa = PBXGroup;
 			children = (
+				D656D9CD1E36CBDE002F0479 /* SAKeyValueStore.h */,
+				D656D9CE1E36CBDE002F0479 /* SAKeyValueStore.m */,
 				D6E4B2971E228AF7009E07F9 /* FMDB多线程 */,
 				D6E4B28D1E226E7B009E07F9 /* FMDB */,
 				D6E4B27C1E224669009E07F9 /* 模糊搜索 */,
@@ -305,6 +339,9 @@
 		D63D32651E1D40E10019B9A7 /* 苍井空 */ = {
 			isa = PBXGroup;
 			children = (
+				D656D9CC1E36C0E8002F0479 /* PrefixHeader.pch */,
+				D656D9B91E368B60002F0479 /* AFNetworking的使用 */,
+				D6E709091E3560A500056FCE /* ReactCocoa的使用 */,
 				D66D8DB21E2A7B0300B89BE9 /* Masonry的使用 */,
 				D66D8DA81E2A74B900B89BE9 /* 响应式编程思想 */,
 				D66D8D9C1E2A6ADA00B89BE9 /* 函数式编程思想 */,
@@ -350,6 +387,38 @@
 				D63D328D1E1D40E10019B9A7 /* Info.plist */,
 			);
 			path = "苍井空UITests";
+			sourceTree = "<group>";
+		};
+		D656D9B91E368B60002F0479 /* AFNetworking的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				D656D9BF1E368C39002F0479 /* AFNDemo.h */,
+				D656D9C01E368C39002F0479 /* AFNDemo.m */,
+			);
+			name = "AFNetworking的使用";
+			sourceTree = "<group>";
+		};
+		D656D9C21E368D6C002F0479 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				D656D9C61E368DC8002F0479 /* MVVMDemo.h */,
+				D656D9C71E368DC8002F0479 /* MVVMDemo.m */,
+				D6E7090A1E3564ED00056FCE /* RequestViewModel.h */,
+				D6E7090B1E3564ED00056FCE /* RequestViewModel.m */,
+				D6E7090D1E35652900056FCE /* Book.h */,
+				D6E7090E1E35652900056FCE /* Book.m */,
+			);
+			name = MVVM;
+			sourceTree = "<group>";
+		};
+		D656D9DB1E36E0B8002F0479 /* 常见用法 */ = {
+			isa = PBXGroup;
+			children = (
+				D656D9DC1E36E103002F0479 /* ReactdDailyDemo.h */,
+				D656D9DD1E36E103002F0479 /* ReactdDailyDemo.m */,
+				D656D9DE1E36E103002F0479 /* ReactdDailyDemo.xib */,
+			);
+			name = "常见用法";
 			sourceTree = "<group>";
 		};
 		D657BE021E23506C00CA5565 /* MJExtension的使用 */ = {
@@ -529,6 +598,22 @@
 			name = "字典转模型KVC实现";
 			sourceTree = "<group>";
 		};
+		D6E709091E3560A500056FCE /* ReactCocoa的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				D656D9DB1E36E0B8002F0479 /* 常见用法 */,
+				D656D9C21E368D6C002F0479 /* MVVM */,
+				D656D9D01E36D984002F0479 /* RACSignalDemo.h */,
+				D656D9D11E36D984002F0479 /* RACSignalDemo.m */,
+				D656D9D31E36DC02002F0479 /* RedView.h */,
+				D656D9D41E36DC02002F0479 /* RedView.m */,
+				D656D9D61E36DE84002F0479 /* flags.plist */,
+				D656D9D81E36DEE3002F0479 /* Flag.h */,
+				D656D9D91E36DEE3002F0479 /* Flag.m */,
+			);
+			name = "ReactCocoa的使用";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -643,12 +728,14 @@
 			files = (
 				D63391A31E2380BD00CA9F10 /* SoraAoi02.jpg in Resources */,
 				D63391A21E2380BD00CA9F10 /* SoraAoi01.jpg in Resources */,
+				D656D9D71E36DE84002F0479 /* flags.plist in Resources */,
 				D60DEB9B1E1FDC81002D8869 /* SqiteVC.xib in Resources */,
 				D63391A61E2380BD00CA9F10 /* SoraAoi05.jpg in Resources */,
 				D6E4B2961E227446009E07F9 /* FMDBVC.xib in Resources */,
 				D63391A41E2380BD00CA9F10 /* SoraAoi03.jpg in Resources */,
 				D63391AB1E238BF000CA9F10 /* XMGPageView.xib in Resources */,
 				D6E4B29C1E228B37009E07F9 /* FMDMQueueVC.xib in Resources */,
+				D656D9E01E36E103002F0479 /* ReactdDailyDemo.xib in Resources */,
 				D63391A51E2380BD00CA9F10 /* SoraAoi04.jpg in Resources */,
 				D66D8DA11E2A6B9500B89BE9 /* functionIdeasVC.xib in Resources */,
 				D63D32761E1D40E10019B9A7 /* LaunchScreen.storyboard in Resources */,
@@ -736,12 +823,17 @@
 				D66D8DA01E2A6B9500B89BE9 /* functionIdeasVC.m in Sources */,
 				D6E4B2BB1E2292FE009E07F9 /* NSObject+Model.m in Sources */,
 				D6E4B2BA1E2292FE009E07F9 /* NSDictionary+Property.m in Sources */,
+				D656D9CF1E36CBDE002F0479 /* SAKeyValueStore.m in Sources */,
 				D674B63D1E27C37100AFB3BD /* CalculateManager.m in Sources */,
 				D66D8DB11E2A75AB00B89BE9 /* NSObject+KVO.m in Sources */,
+				D656D9DA1E36DEE3002F0479 /* Flag.m in Sources */,
 				D63D326E1E1D40E10019B9A7 /* ViewController.m in Sources */,
 				D6E4B2861E224717009E07F9 /* ContactTool.m in Sources */,
+				D656D9DF1E36E103002F0479 /* ReactdDailyDemo.m in Sources */,
 				D66D8DA41E2A6BE900B89BE9 /* CalculateMG.m in Sources */,
 				D674B6401E27CC5E00AFB3BD /* ChainVC.m in Sources */,
+				D656D9D51E36DC02002F0479 /* RedView.m in Sources */,
+				D6E7090F1E35652900056FCE /* Book.m in Sources */,
 				D657BE131E23579800CA5565 /* FriendsCircleTVC.m in Sources */,
 				D657BE1C1E2357EC00CA5565 /* XMGStatusCell.m in Sources */,
 				D6E4B2B91E2292FE009E07F9 /* StatusItem.m in Sources */,
@@ -750,7 +842,9 @@
 				D6E4B2801E2246F8009E07F9 /* FuzzySearchVC.m in Sources */,
 				D657BE0C1E2351CE00CA5565 /* CarsVC.m in Sources */,
 				D66D8DAB1E2A751800B89BE9 /* Persons.m in Sources */,
+				D656D9C11E368C39002F0479 /* AFNDemo.m in Sources */,
 				D657BE191E2357E400CA5565 /* XMGStatus.m in Sources */,
+				D656D9D21E36D984002F0479 /* RACSignalDemo.m in Sources */,
 				D6E4B2A51E228D1C009E07F9 /* XMGImage.m in Sources */,
 				D6E4B2AF1E228FE5009E07F9 /* NSObject+Property.m in Sources */,
 				D63D326B1E1D40E10019B9A7 /* AppDelegate.m in Sources */,
@@ -759,12 +853,14 @@
 				D60DEB971E1FDC4D002D8869 /* SqiteVC.m in Sources */,
 				D6E4B2871E224717009E07F9 /* Contact.m in Sources */,
 				D657BE081E2350AD00CA5565 /* XMGCarGroup.m in Sources */,
+				D656D9C81E368DC8002F0479 /* MVVMDemo.m in Sources */,
 				D674B63A1E27C34200AFB3BD /* NSObject+Calculate.m in Sources */,
 				D6E4B2A61E228D1C009E07F9 /* UIImage+Image.m in Sources */,
 				D6E4B2AB1E228EB7009E07F9 /* Person.m in Sources */,
 				D60DEB991E1FDC4D002D8869 /* Student.m in Sources */,
 				D66D8DAE1E2A755200B89BE9 /* XMGKVONotifying_Person.m in Sources */,
 				D6E4B2A01E228CE0009E07F9 /* runtimeVC.m in Sources */,
+				D6E7090C1E3564ED00056FCE /* RequestViewModel.m in Sources */,
 				D66D8DA71E2A749600B89BE9 /* ResponseIdeaVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -915,11 +1011,16 @@
 			baseConfigurationReference = 7FDE26E9E4ED29AA4BE4836E /* Pods-苍井空.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/苍井空/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "苍井空/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "苍井空/苍井空-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -929,11 +1030,15 @@
 			baseConfigurationReference = 10F769D9060B8AC290AB5482 /* Pods-苍井空.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/苍井空/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "苍井空/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "苍井空/苍井空-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -15,14 +15,25 @@
 #import "ChainVC.h"
 #import "functionIdeasVC.h"
 #import "ReactiveObjC.h"
+#import <AFNetworking/AFNetworking.h>
+#import "RequestViewModel.h"
+#import "Book.h"
+
+#import "MVVMDemo.h"
+
 @interface ViewController ()
 
+/** 请求视图模型 */
+@property (nonatomic, strong) RequestViewModel *requestVM;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+  
+    // 创建请求管理者
+
     
     XMGPageView *pageView = [XMGPageView pageView];
     //pageView.center = self.view.center;
@@ -32,8 +43,11 @@
     self.view.backgroundColor=[UIColor yellowColor];
     
     
+    
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
+
 - (IBAction)pusSqlite:(id)sender {
     SqiteVC *sqlVC=[[SqiteVC alloc]init];
     
@@ -73,6 +87,13 @@
     
     [self.navigationController pushViewController:vc animated:YES];
     
+}
+- (IBAction)pushMVVM {
+   MVVMDemo *mvvm=[[MVVMDemo alloc]init];
+    
+[self.navigationController pushViewController:mvvm animated:YES];
+
+
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

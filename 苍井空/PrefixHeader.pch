@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  苍井空
+//
+//  Created by liuyi on 17/1/24.
+//  Copyright © 2017年 liuyi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+//屏幕宽高
+#define SCREEN_BOUNDS [UIScreen mainScreen].bounds
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+//设备判别
+#define IS_IPHONE_5 (fabs((double) [[UIScreen mainScreen] bounds].size.height - (double) 568) < DBL_EPSILON)
+#define IS_IPHONE_6 (fabs((double) [[UIScreen mainScreen] bounds].size.height - (double) 667) < DBL_EPSILON)
+#define IS_IPHONE_6P (fabs((double) [[UIScreen mainScreen] bounds].size.height - (double) 736) < DBL_EPSILON)
+//颜色相关
+#define RGBACOLOR16(rgbValue, a) [UIColor colorWithRed:((float) ((rgbValue & 0xFF0000) >> 16)) / 255.0 green:((float) ((rgbValue & 0xFF00) >> 8)) / 255.0 blue:((float) (rgbValue & 0xFF)) / 255.0 alpha:a]
+#define RGBACOLOR(r, g, b, a) [UIColor colorWithRed:(r) / 255.0 green:(g) / 255.0 blue:(b) / 255.0 alpha:(a)]
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
