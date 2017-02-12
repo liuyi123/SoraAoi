@@ -45,6 +45,10 @@
 		D657BE151E2357A700CA5565 /* statuses.plist in Resources */ = {isa = PBXBuildFile; fileRef = D657BE141E2357A700CA5565 /* statuses.plist */; };
 		D657BE191E2357E400CA5565 /* XMGStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE181E2357E400CA5565 /* XMGStatus.m */; };
 		D657BE1C1E2357EC00CA5565 /* XMGStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D657BE1B1E2357EC00CA5565 /* XMGStatusCell.m */; };
+		D65F54121E50886F0018CE0D /* ReactAdvancedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F54101E50886F0018CE0D /* ReactAdvancedVC.m */; };
+		D65F54131E50886F0018CE0D /* ReactAdvancedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D65F54111E50886F0018CE0D /* ReactAdvancedVC.xib */; };
+		D65F54161E50AB3B0018CE0D /* MBProgressHUD+XMG.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F54151E50AB3B0018CE0D /* MBProgressHUD+XMG.m */; };
+		D65F54191E50AD2F0018CE0D /* LoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D65F54181E50AD2F0018CE0D /* LoginViewModel.m */; };
 		D66D8DA01E2A6B9500B89BE9 /* functionIdeasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D8D9E1E2A6B9500B89BE9 /* functionIdeasVC.m */; };
 		D66D8DA11E2A6B9500B89BE9 /* functionIdeasVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66D8D9F1E2A6B9500B89BE9 /* functionIdeasVC.xib */; };
 		D66D8DA41E2A6BE900B89BE9 /* CalculateMG.m in Sources */ = {isa = PBXBuildFile; fileRef = D66D8DA31E2A6BE900B89BE9 /* CalculateMG.m */; };
@@ -161,6 +165,13 @@
 		D657BE181E2357E400CA5565 /* XMGStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGStatus.m; sourceTree = "<group>"; };
 		D657BE1A1E2357EC00CA5565 /* XMGStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGStatusCell.h; sourceTree = "<group>"; };
 		D657BE1B1E2357EC00CA5565 /* XMGStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGStatusCell.m; sourceTree = "<group>"; };
+		D65F540F1E50886F0018CE0D /* ReactAdvancedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactAdvancedVC.h; sourceTree = "<group>"; };
+		D65F54101E50886F0018CE0D /* ReactAdvancedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactAdvancedVC.m; sourceTree = "<group>"; };
+		D65F54111E50886F0018CE0D /* ReactAdvancedVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactAdvancedVC.xib; sourceTree = "<group>"; };
+		D65F54141E50AB3B0018CE0D /* MBProgressHUD+XMG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XMG.h"; sourceTree = "<group>"; };
+		D65F54151E50AB3B0018CE0D /* MBProgressHUD+XMG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XMG.m"; sourceTree = "<group>"; };
+		D65F54171E50AD2F0018CE0D /* LoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewModel.h; sourceTree = "<group>"; };
+		D65F54181E50AD2F0018CE0D /* LoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewModel.m; sourceTree = "<group>"; };
 		D66D8D9D1E2A6B9500B89BE9 /* functionIdeasVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = functionIdeasVC.h; sourceTree = "<group>"; };
 		D66D8D9E1E2A6B9500B89BE9 /* functionIdeasVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = functionIdeasVC.m; sourceTree = "<group>"; };
 		D66D8D9F1E2A6B9500B89BE9 /* functionIdeasVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = functionIdeasVC.xib; sourceTree = "<group>"; };
@@ -267,6 +278,8 @@
 		D60DEB8F1E1FDBE0002D8869 /* 数据库 */ = {
 			isa = PBXGroup;
 			children = (
+				D65F54141E50AB3B0018CE0D /* MBProgressHUD+XMG.h */,
+				D65F54151E50AB3B0018CE0D /* MBProgressHUD+XMG.m */,
 				D656D9CD1E36CBDE002F0479 /* SAKeyValueStore.h */,
 				D656D9CE1E36CBDE002F0479 /* SAKeyValueStore.m */,
 				D6E4B2971E228AF7009E07F9 /* FMDB多线程 */,
@@ -417,6 +430,11 @@
 				D656D9DC1E36E103002F0479 /* ReactdDailyDemo.h */,
 				D656D9DD1E36E103002F0479 /* ReactdDailyDemo.m */,
 				D656D9DE1E36E103002F0479 /* ReactdDailyDemo.xib */,
+				D65F540F1E50886F0018CE0D /* ReactAdvancedVC.h */,
+				D65F54101E50886F0018CE0D /* ReactAdvancedVC.m */,
+				D65F54111E50886F0018CE0D /* ReactAdvancedVC.xib */,
+				D65F54171E50AD2F0018CE0D /* LoginViewModel.h */,
+				D65F54181E50AD2F0018CE0D /* LoginViewModel.m */,
 			);
 			name = "常见用法";
 			sourceTree = "<group>";
@@ -684,6 +702,7 @@
 				TargetAttributes = {
 					D63D32621E1D40E10019B9A7 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 2EZUM2HNNE;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
@@ -730,6 +749,7 @@
 				D63391A21E2380BD00CA9F10 /* SoraAoi01.jpg in Resources */,
 				D656D9D71E36DE84002F0479 /* flags.plist in Resources */,
 				D60DEB9B1E1FDC81002D8869 /* SqiteVC.xib in Resources */,
+				D65F54131E50886F0018CE0D /* ReactAdvancedVC.xib in Resources */,
 				D63391A61E2380BD00CA9F10 /* SoraAoi05.jpg in Resources */,
 				D6E4B2961E227446009E07F9 /* FMDBVC.xib in Resources */,
 				D63391A41E2380BD00CA9F10 /* SoraAoi03.jpg in Resources */,
@@ -823,8 +843,10 @@
 				D66D8DA01E2A6B9500B89BE9 /* functionIdeasVC.m in Sources */,
 				D6E4B2BB1E2292FE009E07F9 /* NSObject+Model.m in Sources */,
 				D6E4B2BA1E2292FE009E07F9 /* NSDictionary+Property.m in Sources */,
+				D65F54121E50886F0018CE0D /* ReactAdvancedVC.m in Sources */,
 				D656D9CF1E36CBDE002F0479 /* SAKeyValueStore.m in Sources */,
 				D674B63D1E27C37100AFB3BD /* CalculateManager.m in Sources */,
+				D65F54161E50AB3B0018CE0D /* MBProgressHUD+XMG.m in Sources */,
 				D66D8DB11E2A75AB00B89BE9 /* NSObject+KVO.m in Sources */,
 				D656D9DA1E36DEE3002F0479 /* Flag.m in Sources */,
 				D63D326E1E1D40E10019B9A7 /* ViewController.m in Sources */,
@@ -846,6 +868,7 @@
 				D657BE191E2357E400CA5565 /* XMGStatus.m in Sources */,
 				D656D9D21E36D984002F0479 /* RACSignalDemo.m in Sources */,
 				D6E4B2A51E228D1C009E07F9 /* XMGImage.m in Sources */,
+				D65F54191E50AD2F0018CE0D /* LoginViewModel.m in Sources */,
 				D6E4B2AF1E228FE5009E07F9 /* NSObject+Property.m in Sources */,
 				D63D326B1E1D40E10019B9A7 /* AppDelegate.m in Sources */,
 				D63D32681E1D40E10019B9A7 /* main.m in Sources */,
@@ -1012,10 +1035,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2EZUM2HNNE;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/苍井空/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "苍井空/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1031,10 +1055,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 2EZUM2HNNE;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/苍井空/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = "";
 				INFOPLIST_FILE = "苍井空/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaozhi.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";

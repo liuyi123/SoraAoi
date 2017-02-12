@@ -33,8 +33,15 @@
 -(void)kvo{
    
     
-  
+    [[_readView rac_valuesForKeyPath:@"frame" observer:nil] subscribeNext:^(id  _Nullable x) {
+        
+        // x: 修改的值
+        
+        NSLog(@"%@",x);
+    }];
     
+    
+
 //        [_readView rac_observeKeyPath:@"frame" options:NSKeyValueObservingOptionNew observer:nil block:^(id value, NSDictionary *change, BOOL causedByDealloc, BOOL affectedOnlyLastComponent) {
 //            //
 //            return nil;
